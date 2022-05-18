@@ -1,0 +1,198 @@
+/* GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    /* PRIMARY COLORS */
+    --color_torea_bay: #11388a;
+    --color_dark_danubue: #6a8ac8;
+    --color_polo_blue: #8e9dc9;
+    --color_light_danubue: #6c9dd3;
+    --color__dark_silver: #656d78;
+    --color_cararra: #fafaf8;
+    --color_ebony_clay: #25273c;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* UTILITIES */
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    background-color: var(--color_torea_bay);
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.git_icon span {
+    display: inline-block;
+    width: 3.3rem;
+    height: 3.3rem;
+    background: url(../assets/icons/github-logo-white.png);
+    background-repeat: no-repeat;
+}
+
+.linkedin_icon span {
+    display: inline-block;
+    width: 3.3rem;
+    height: 3.3rem;
+    background: url(../assets/icons/linkedin-logo-withe.png);
+    background-repeat: no-repeat;
+}
+
+/* MAINT CONTENT */
+
+.main_container {
+    width: 100%;
+    padding-top: 1rem;
+    background-color: var(--color_polo_blue);
+}
+
+.main_nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_nav div {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main_nav a {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--color_cararra);
+}
+
+.main_nav a:hover {
+    color: var(--color_ebony_clay);
+    font-weight: 700;
+}
+
+/* PROFILE INFO */
+
+.profile_info {
+    width: 100%;
+    background-color: var(--color_ebony_clay);
+}
+
+.profile_img {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding-top: 2rem;
+}
+
+.profile_img img {
+    width: 80%;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.personal_info {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.personal_info h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--color_cararra);
+}
+
+.personal_info p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--color_cararra);
+}
+
+/* OUTSTANDING PROJECTS */
+
+.outstanding_projects {
+    width: 100%;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.outstanding_projects h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color_cararra);
+}
+
+.outstanding_project {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-bottom: solid var(--color_ebony_clay) 0.1rem;
+}
+
+.outstanding_project a {
+    text-decoration: none;
+    color: var(--color_cararra)
+}
+
+.outstanding_project h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.outstanding_project h3:hover {}
+
+.outstanding_project img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.outstanding_project p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: var(--color_torea_bay);
+}
