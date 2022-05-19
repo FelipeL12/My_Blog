@@ -219,7 +219,7 @@ body {
 
 /* MEDIAS */
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
 
     .header_nav {
         justify-content: flex-end;
